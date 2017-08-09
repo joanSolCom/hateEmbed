@@ -7,6 +7,17 @@ import codecs
 import requests
 import os
 
+'''
+[19:11, 9/8/2017] Luis Espinosa: joan                        
+[19:11, 9/8/2017] Luis Espinosa: entrena un lstm con hate speech con el blog post d karpathy                        
+[19:11, 9/8/2017] Luis Espinosa: a nivel d palabra                        
+[19:11, 9/8/2017] Luis Espinosa: reusa su codigo                        
+[19:12, 9/8/2017] Luis Espinosa: parsea los mensajes con mate o algo y mete info sintactica y luego vendelo como quieras                        
+[19:12, 9/8/2017] Luis Espinosa: y haces 3 papers d ahi, me pones d primero en uno                        
+[19:12, 9/8/2017] Luis Espinosa: y yo tambien voy a YAKUZA TAMAGOTCHI HEIHIACHI SOUL CALIBUR 2
+'''
+
+
 def stormfrontCrawl():
 	entryPoints = ["https://www.stormfront.org/forum/f9-","https://www.stormfront.org/forum/f39-","https://www.stormfront.org/forum/f12-"]
 	nPages = [24,66,8501]
