@@ -1,4 +1,4 @@
-
+# -*- coding: utf-8 -*-
 from lxml import etree
 import os
 import re
@@ -75,7 +75,8 @@ def fatpeoplehateCrawl():
 def niggermaniaCrawl():
 	#http://niggermania.net/forum/
 	#http://niggermania.net/forum/forumdisplay.php?2-Niggerfuxation-and-TNB/page1219
-
+	pass
+	
 def vanguardnewsnetworkCrawl():
 	#http://www.vanguardnewsnetwork.com/page/711/
 	pass
@@ -131,6 +132,6 @@ def returnofkingsCrawl():
 
 
 
-#stormfrontCrawl()
+stormfrontCrawl()
 #rooshvCrawl()
-returnofkingsCrawl()
+#returnofkingsCrawl()
